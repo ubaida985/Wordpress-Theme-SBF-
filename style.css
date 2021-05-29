@@ -1,0 +1,568 @@
+/*
+Theme Name: SBF
+Author: Ubaid Ahmad
+Author URI: https://github.com/ubaida985
+Description: Our 2020 theme is designed and developed for sciencebehindfitness.com
+*/*{
+    box-sizing: border-box!important;
+    margin: 0;
+    padding: 0;
+}
+
+a{
+    text-decoration: none!important;
+    transition: 0.4s;
+}
+
+.lightColor{
+    color: white!important;
+}
+.lightMode{
+    background-color: white!important;
+}
+.darkMode{
+    background-color: #222!important;
+}
+
+.zoomTransitionLight{
+    transition: all ease 0.5s;
+}
+.zoomTransitionLight:hover{
+    font-size: 1.4rem;
+}
+
+
+/* NAVBAR */
+
+nav{
+    height: 75px;
+}
+.transparent{
+    background-color: rgba(0, 0, 0, 0)!important;
+}
+.dropdown-menu{
+    border-radius: 0!important;
+    border: none!important;
+    padding: 0.7rem 1.5rem!important;
+}
+nav ul li a,
+.dropdown-menu a,
+.search-icon li,
+.darkModeBtn{
+    color: black!important;
+    text-align: center;
+    margin-top: 5px!important;
+}
+
+.dropdown-menu a:hover,
+.search-icon li:hover,
+.darkModeBtn:hover{
+    background-color: #FA8072;
+    color: white!important;
+}
+.toggler,
+#logo img{
+    border: none!important;
+    font-size: 1.5rem!important;
+    margin: 10px!important;
+    outline: none!important;
+}
+.active{
+    color: #800000!important;
+}
+
+.search-icon .fa-search{
+    cursor: pointer;
+    margin: 5px 0px!important;
+}
+
+
+#darkButton Button{
+    margin: 5px 0px!important;
+    background-color: rgba(0, 0, 0, 0);
+    padding: 0 5px!important;
+    border-radius: 10px;
+    box-shadow: none!important;
+}
+#darkButton Button:hover{
+    border-color: white;
+}
+#darkButton:hover{
+    color: white;
+    background-color: #FA8072;
+}
+/* BANNER */
+.custom-container img{
+    top: 0;
+    height: 350px ;
+    width: 100%;
+}
+.custom-container{
+    margin-bottom: 20px;
+}
+
+
+
+
+section.blog .section-heading{
+    margin: 3rem 0!important;
+    text-align: center;
+    transition: all ease 0.3s;
+}
+section.blog .section-heading:hover{
+    font-size: 2rem;
+}
+
+section.blog .card-wrapper{
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    grid-gap: 1rem;
+    margin-bottom: 5rem!important;
+}
+section.blog .card-wrapper .card{
+    background: white;
+    padding-bottom: 2rem!important;
+}
+section.blog .card-wrapper .card:hover{
+    box-shadow: 0px 10px 6px -6px #777;
+}
+section.blog .card-wrapper .card .img-wrapper{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+section.blog .card-wrapper .card .img-wrapper img{
+    width: 100%;
+    height: 350px;
+}
+section.blog .card-wrapper .card .img-wrapper img:hover{
+    box-shadow: 0px 15px 10px -10px #777;
+}
+section.blog .card-wrapper .card .card-content{
+    padding: 1rem 2rem;
+}
+section.blog .card-wrapper .card .card-content h1{
+    font-size: 2rem;
+    font-weight: 600;
+    text-align: center;
+    color: #555;
+}
+section.blog .card-wrapper .card .card-content h1:hover{
+    text-decoration: underline;
+}
+section.blog .card-wrapper .card .card-content p{
+    color: #aaa!important;
+    margin: 1rem 0;
+    text-align: center;
+}
+main{
+    margin-bottom: 4rem!important;
+}
+
+/* FOOTER  */
+footer{
+    background: black;
+    padding: 2rem 0!important;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+footer a{
+    color: white;
+    transition: all ease 0.4s;
+}
+footer a:hover{
+    color: #800000;
+}
+footer #left-footer ul{
+    list-style: none;
+    line-height: 1.5;
+    padding-bottom: 1rem!important;
+}
+footer #right-footer{
+    float: 2px;
+    padding: 8px;
+    text-align: center;
+    background: black;
+    color: white;
+}
+footer #right-footer a{
+    color:white;
+}
+
+/*SOCIAL MEDIA FOOTER*/
+footer #social-media-footer a .fa-facebook,
+footer #social-media-footer a .fa-instagram,
+footer #social-media-footer a .fa-linkedin,
+footer #social-media-footer a .fa-quora,
+footer #social-media-footer a .fa-twitter{
+    color: white;
+    transition:0.4s;
+    margin:0 0.6rem !important;
+}
+footer #social-media-footer ul{
+    display: flex;
+    list-style:none;
+    justify-content: center;
+    padding:0px
+}
+footer #social-media-footer ul li{
+    font-size: 48px;
+    padding: 16px;
+    transition: 0.4s;
+}
+
+/*HOVER EFFECT IN SOCIAL MEDIA ICONS*/
+footer #social-media-footer ul li:hover a .fa-facebook{
+    color: #3b5998 ;
+}
+footer #social-media-footer ul li:hover a .fa-linkedin{
+    color: #0e76a8 ;
+}
+footer #social-media-footer ul li:hover a .fa-instagram{
+    color: #a646c4  ;
+}
+footer #social-media-footer ul li:hover a .fa-twitter{
+    color: #00acee  ;
+}
+footer #social-media-footer ul li:hover a .fa-quora{
+    color: #AA2200  ;
+}
+footer #social-media-footer a .fa-facebook,
+footer #social-media-footer a .fa-instagram,
+footer #social-media-footer a .fa-linkedin,
+footer #social-media-footer a .fa-quora,
+footer #social-media-footer a .fa-twitter{
+    color: white;
+    transition:0.4s;
+}
+
+/*ARTICLE LIST*/
+section.blog .section-main-heading{
+    margin-top: 10rem!important;
+    font-size: 4rem;
+    text-align: center;
+    transition: all ease 0.4s;
+    margin-bottom: 2rem!important;
+}
+section.blog .section-main-heading:hover{
+    font-size: 3.5rem;
+}
+
+
+
+/*   ARTICLE PAGE   */
+article .main-heading h1{
+    color: #555;
+    margin-top: 10rem!important;
+    font-size: 2.5rem;
+    margin-bottom: 1rem!important;
+}
+.connect ul{
+    padding: 1rem!important;
+    text-align: center;
+}
+.connect li{
+    display: inline;
+    font-size: 2rem;
+    margin: 0.4rem!important;
+}
+.connect ul li a .fa-facebook{
+    color: #3b5998 ;
+}
+.connect ul li a .fa-linkedin{
+    color: #0e76a8 ;
+}
+.connect ul li a .fa-instagram{
+    color: #a646c4  ;
+}
+.connect ul li a .fa-twitter{
+    color: #00acee  ;
+}
+.connect ul li a .fa-quora{
+    color: #AA2200  ;
+}
+article .links h2{
+    color: #555;
+}
+article .links{
+    margin: 2rem 0!important;
+}
+
+.featured-img img{
+    width: 100%;
+}
+.links{
+    padding: 20px 0;
+}
+.links h3{
+    margin-left: 5%;
+}
+.content{
+    padding: 2rem 0!important;
+    border-top: 1px solid #aaa;
+    border-bottom: 1px solid #aaa;
+}
+.content h2{
+    font-size: 2.4rem;
+    text-align: center;
+    color: #555;
+}
+.content p{
+    text-align: center;
+    line-height: 1.5;
+    font-size: 1.2rem;
+}
+
+@media( min-width:768px ){
+    .custom-container img{
+        height: 450px ;
+    }
+    .custom-container{
+        margin-bottom: 30px;
+    }
+    section.blog .section-heading{
+        font-size: 3.0rem;
+        transition: all ease 0.3s;
+    }
+    section.blog .section-heading:hover{
+        font-size: 2.5rem;
+    }
+    section.blog .card-wrapper{
+        grid-template-columns: repeat(2, 1fr);
+    }
+    section.blog .card-wrapper .card .card-content h1{
+        margin: 1rem!important;
+    }
+    section.blog .card-wrapper .card .card-content p{
+        font-size: 1rem;
+    }
+
+    footer a{
+        font-size: 1rem;
+    }
+    
+    section.blog .section-main-heading{
+        margin-top: 7rem!important;
+    }       
+    
+    /*SOCIAL MEDIA FOOTER*/
+    footer #social-media-footer a .fa-facebook,
+    footer #social-media-footer a .fa-instagram,
+    footer #social-media-footer a .fa-linkedin,
+    footer #social-media-footer a .fa-quora,
+    footer #social-media-footer a .fa-twitter{
+        font-size: 3rem;
+        margin: 1rem!important;
+    }
+    #right-footer p{
+        font-size: 1rem!important;
+    }
+
+        /*   ARTICLE PAGE   */
+    article .main-heading h1{
+        font-size: 3rem;
+    }
+    .connect li{
+        font-size: 2.8rem;
+    }
+   
+    .content h2{
+        font-size: 2.4rem;
+        text-align: left;
+        padding: 1rem 0!important;
+        padding-left: 1rem!important;
+    }
+    .content p{
+        text-align: center;
+        line-height: 1.5;
+        font-size: 1.2rem;
+    }
+    .links{
+        padding-left: 1rem!important;
+    }
+
+}
+@media( min-width:990px ){
+    nav ul{
+        margin-left: 15%!important;
+    }
+    .nav-item{
+        padding-left: 20px!important;
+        padding-right: 20px!important;
+        }
+    nav ul li a{
+        justify-content: center;
+        align-items: center;
+        text-decoration: none;
+        text-align: center;
+        color: black!important;
+        font-size: 1rem;
+    }
+    nav ul li a:hover,
+    .dropdown a:hover,
+    #searchIcon li:hover,
+    .darkModeBtn:hover,
+    .darkModeBtn Button:hover{
+        color: #000!important;
+        background-color: rgba(0, 0, 0, 0)!important;        
+    }
+    .zoomTransitionLight:hover{
+        font-size: 1.4rem;
+    }
+    .fa-search{
+        font-size: 1.7rem!important;
+        margin: 5px!important;
+    }
+    Button{
+        font-size: 1.1rem!important;
+    }
+    .darkModeBtn Button{
+        margin: 5px!important;
+    }
+    section.blog .section-main-heading{
+        margin-top: 10rem!important;
+    }
+}
+@media( min-width:1024px ){
+    
+    
+section.blog .section-main-heading{
+    text-align: left;
+    font-size: 5rem;
+}
+    main{
+        width: 85%;
+        margin: auto!important;
+    }
+    .custom-container img{
+        height: 475px ;
+    }
+    section.blog .card-wrapper .card .card-content h1{
+        margin: 1rem!important;
+    }
+    section.blog .card-wrapper .card .card-content p{
+        text-align: left;
+        padding: 0 1rem 1rem 1rem!important;
+    }
+    footer{
+        padding: 1rem 3rem!important;
+        padding-bottom: 0!important;
+    } 
+    #left-footer h3{
+        font-size: 2rem;
+        text-align: left;
+        padding-bottom: 1rem!important;
+    }
+    footer #left-footer a{
+        padding-right: 2rem!important;
+    }
+    #left-footer ul{
+        text-align: left;
+    }
+    #left-footer li{
+        display: inline;
+    }
+    #right-footer h3{
+        font-size: 2rem;
+        padding-bottom: 1rem!important;
+    }
+    /*SOCIAL MEDIA FOOTER*/
+    footer #social-media-footer a .fa-facebook,
+    footer #social-media-footer a .fa-instagram,
+    footer #social-media-footer a .fa-linkedin,
+    footer #social-media-footer a .fa-quora,
+    footer #social-media-footer a .fa-twitter{
+        font-size: 3rem;
+        margin: 1rem!important;
+    }
+        /*   ARTICLE PAGE   */
+        article .main-heading h1{
+            font-size: 3rem;
+        }
+        .connect li{
+            font-size: 3rem;
+        }
+        .content p{
+            text-align: left;
+            padding-left: 4rem!important;
+        }
+
+}
+
+@media( min-width:1200px ){
+    article{
+        width: 80%;
+        margin: auto!important;
+    }
+     /*   ARTICLE PAGE   */
+     article .main-heading h1{
+        font-size: 3.6rem;
+    }
+    .connect ul{
+        padding: 2rem!important;
+    }
+    .connect li{
+        font-size: 3.3rem;
+    }
+    .content h2{
+        font-size: 3rem;
+    }
+    .content p{
+        text-align: left;
+        padding-left: 4rem!important;
+        font-size: 1.5rem;
+    }
+    .links h2{
+        font-size: 3rem;
+    }
+    .links a h3{
+        padding-left: 3rem!important;
+        font-size: 2.7rem;
+    }
+    #social-media-footer{
+        margin-bottom: 2rem!important;
+    }
+    #right-footer p{
+        text-align: right;
+    }
+    nav ul{
+        margin-left: 30%!important;
+    }
+    section{
+        margin: 0 5rem!important;
+    }
+    section.blog .card-wrapper{
+        grid-gap: 2rem!important;
+        grid-template-columns: repeat(3, 1fr);
+    }
+    .custom-container img{
+        height: 575px ;
+    }
+    section.blog .card-wrapper .card .card-content h1{
+        margin: 1rem!important;
+        text-align: left;
+    }
+
+    
+
+}
+
+@media( min-width:1600px ){
+    section.blog .section-heading{
+        font-size: 4.5rem;
+    }
+    section.blog .section-heading:hover{
+        font-size: 3.5rem;
+    }
+    nav ul{
+        margin-left: 40%!important;
+    }
+    section{
+        margin: 0 15rem!important;
+    }
+    section.blog .card-wrapper{
+        grid-gap: 4rem!important;
+    }
+}
